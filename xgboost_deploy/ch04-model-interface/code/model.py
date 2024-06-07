@@ -3,7 +3,7 @@ import numpy as np
 from abc import ABCMeta, abstractmethod
 from typing import Optional
 
-
+ 
 class Model(metaclass=ABCMeta):
 
     def __init__(self, run_fold_name: str, params: dict) -> None:
